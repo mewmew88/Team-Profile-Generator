@@ -128,7 +128,7 @@ function createManager(team) {
         },
         {
             type: 'input',
-            name: 'number',
+            name: 'officeNumber',
             message: "What is the team manager's office phone number?",
         }
     ]).then((managerDetails) => {
