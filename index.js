@@ -132,7 +132,7 @@ function createManager(team) {
         }
     ]).then((managerDetails) => {
         // Initialise Manager class to create Manager object
-        const manager = new Manager(managerDetails.name, managerDetails.id, managerDetails.email, managerDetails.number)
+        const manager = new Manager(managerDetails.name, managerDetails.id, managerDetails.email, managerDetails.officeNumber)
         team.push(manager);
         createTeam(team); // at this point, team array have a manager in it
     });
