@@ -80,7 +80,7 @@ function createTeam(team) {
         {
             type: 'list',
             name: 'memberChoice',
-            message: 'Which type of team member you wan to add?',
+            message: 'Which type of team member you want to add?',
             choices: [
                 'Engineer',
                 'Intern',
